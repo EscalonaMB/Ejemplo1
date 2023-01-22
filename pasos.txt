@@ -1,0 +1,9 @@
+# crear rep
+
+
+git init             #prepara archivo para crear repositorio
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/EscalonaMB/Ejemplo1.git
+git push -u origin main
